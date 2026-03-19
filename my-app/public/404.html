@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirect</title>
+    <script type="text/javascript">
+      const path = window.location.pathname.replace('/lab-1-setup/', '');
+      window.location.replace('/lab-1-setup/?p=' + encodeURIComponent(path));
+    </script>
+  </head>
+</html>
