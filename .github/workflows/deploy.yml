@@ -26,6 +26,8 @@ jobs:
 
       - name: Install and Build
         working-directory: ./my-app
+        env:
+          VITE_BASE_URL: /lab-1-setup/
         run: |
           npm install
           npm run build
