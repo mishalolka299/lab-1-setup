@@ -8,3 +8,10 @@ yarn-debug.log*
 yarn-error.log*
 .env.local
 .env.*.local
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+terraform/.terraform.lock.hcl
+terraform/crash.log
